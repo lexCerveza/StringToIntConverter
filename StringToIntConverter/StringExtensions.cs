@@ -12,7 +12,6 @@ namespace StringToIntConverter
                 throw new ArgumentException("String is not matches number");
             }
 
-
             var result = 0;
             for (var i = 0; i < input.Length; i++)
             {
